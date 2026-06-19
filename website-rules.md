@@ -37,6 +37,15 @@ If the user asks to change one sentence, change that sentence only. A small requ
 - Generated testimonials must never be presented as real client statements.
 - Do not publish placeholder text, fake contact data, or a form that implies delivery to a backend when no backend is connected.
 
+## Lead Routing Rules
+
+- On desktop and tablet viewports above `620px`, secondary conversion CTAs must route to the contact form using `#contact`.
+- On mobile viewports at `620px` and below, the same secondary CTA position must use `tel:+18582052448` for one-tap calling.
+- Implement responsive destinations with separate accessible links and CSS visibility. Do not use user-agent or JavaScript device detection.
+- Keep `(858) 205-2448` visible in the desktop navbar so visitors can manually dial it.
+- Preserve the primary free-case-review form path. Mobile calling is the secondary lead path, not a replacement for the form.
+- CTA labels must state the action clearly: `Request a Free Case Review` for the form and `Call (858) 205-2448` for calling.
+
 ## Asset Rules
 
 - Store production assets under `public/` with descriptive filenames.

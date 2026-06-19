@@ -12,3 +12,17 @@
 .textLink:hover {
   background: var(--gold);
 }
+
+.textLinkMobile {
+  display: none;
+}
+
+@media (max-width: 620px) {
+  .textLinkDesktop {
+    display: none;
+  }
+
+  .textLinkMobile {
+    display: inline-flex;
+  }
+}

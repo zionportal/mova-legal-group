@@ -53,10 +53,10 @@ export default function Home() {
     <section className="hero">
       <div className="heroCopy">
         <p className="kicker">SAN DIEGO PERSONAL INJURY LAWYERS</p>
-        <h1>Calm. Confident.<br/><em>Committed to You.</em></h1>
-        <p className="lead">When an injury changes everything, you deserve a legal team that listens, communicates clearly, and fights for the recovery you need.</p>
+        <h1>No Fee Unless<br/><em>We Win.</em></h1>
+        <p className="lead">When an injury changes everything, get a free case review from a legal team that listens, communicates clearly, and fights for the recovery you need.</p>
         <div className="actions"><a className="button gold" href="#contact">Get a Free Case Review <ArrowRight size={18}/></a><a className="call" href="tel:+18582052448"><Phone size={18}/>{phone}</a></div>
-        <p className="promise">No fee unless we win. Available 24/7.</p>
+        <p className="promise">Free consultation. Available 24/7.</p>
       </div>
       <div className="heroVisual"><div className="sun"/><img src="/chris-movafagh.png" alt="Personal injury attorney Chris Movafagh"/><div className="nameplate"><strong>Chris Movafagh</strong><span>Founding Attorney</span></div></div>
     </section>

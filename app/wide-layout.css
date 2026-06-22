@@ -1,0 +1,10 @@
+@media(min-width:1280px){
+  .hero{grid-template-columns:minmax(0,760px) minmax(420px,620px);justify-content:center}
+  .heroCopy{padding-left:40px;padding-right:40px}
+  .about{grid-template-columns:minmax(0,640px) minmax(0,680px);justify-content:center}
+  .aboutCopy{padding-left:70px;padding-right:70px}
+  .whyChoose{grid-template-columns:minmax(0,680px) minmax(420px,560px);gap:72px;justify-content:center}
+  .expect{grid-template-columns:minmax(420px,560px) minmax(0,680px);gap:72px;justify-content:center}
+  .faq{grid-template-columns:minmax(320px,470px) minmax(0,720px);gap:72px;justify-content:center}
+  .contact{grid-template-columns:minmax(320px,560px) minmax(0,620px);gap:72px;justify-content:center}
+}

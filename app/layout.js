@@ -1,5 +1,6 @@
 import './globals.css';
 import './cta.css';
+import './practice-grid.css';
 import { Cormorant_Garamond, Montserrat } from 'next/font/google';
 
 const display = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-display', weight: ['500','600','700'] });

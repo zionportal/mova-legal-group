@@ -34,7 +34,7 @@ const faqs = [
   ['What happens during a free consultation?', 'A free consultation is a focused conversation about what happened, what injuries were reported, what treatment has occurred, and what insurance or evidence may be involved. You can ask questions about deadlines, fees, communication, and the likely next steps. The attorney or intake team may ask for documents such as photos, police reports, insurance letters, or medical information. You are not required to know every detail before calling, because part of the consultation is helping organize the situation. By the end, you should have a clearer sense of whether the firm can help and what comes next.'],
 ];
 
-function Logo() { return <a className="logo" href="#top" aria-label="Mova Law Group home"><span>MOVA</span><small>LAW GROUP</small></a>; }
+function Logo() { return <a className="logo" href="#top" aria-label="Mova Law Group home"><img src="/mova-legal-logo.svg" alt="Mova Law Group"/></a>; }
 
 export default function Home() {
   const [menu, setMenu] = useState(false);

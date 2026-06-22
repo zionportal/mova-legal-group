@@ -1,0 +1,6 @@
+.logo{justify-content:center}
+.logo img{display:block;width:154px;height:auto}
+
+@media(max-width:620px){
+  .logo img{width:130px}
+}

@@ -2,6 +2,7 @@ import './globals.css';
 import './cta.css';
 import './practice-grid.css';
 import './wide-layout.css';
+import './branding.css';
 import { Cormorant_Garamond, Montserrat } from 'next/font/google';
 
 const display = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-display', weight: ['500','600','700'] });
@@ -10,6 +11,9 @@ const sans = Montserrat({ subsets: ['latin'], variable: '--font-sans', weight: [
 export const metadata = {
   title: 'San Diego Personal Injury Lawyers | Mova Law Group',
   description: 'Mova Law Group represents people injured in San Diego. Request a free case review today.',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({ children }) {
